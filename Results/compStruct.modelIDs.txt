@@ -1,0 +1,33 @@
+ACC Adrenal TP
+BRCA basalTNBC TP
+DLBC TP lymphNode
+LGG TP Brain
+LIHC TP Liver
+LUAD TP Lung
+LUSC TP Lung
+PCPG TP AdrGland
+SKCM TP Skin
+basalTNBC TP
+BRCA NT
+LIHC NT Liver
+LUAD NT Lung
+LUSC NT Lung
+AdrenalGland TM
+Brain TM
+Liver TM
+Lung TM
+LymphNode TM
+Skin TM
+GTex HT AdrenalGland
+GTex HT Brain Amygdala
+GTex HT Brain Hippocampus
+GTex HT Brain Hypothalamus
+GTex HT Brain SubstantiaNigra
+GTex HT Breast
+GTex HT Skin NotSunExposed
+GTex HT Skin SunExposed
+GTex HT liver
+GTex HT lung
+GTex HT Brain basalGanglia
+GTex HT Brain cerebellum
+GTex HT Brain cortex

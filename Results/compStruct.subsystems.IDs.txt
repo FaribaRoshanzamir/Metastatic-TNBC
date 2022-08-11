@@ -1,0 +1,138 @@
+Acyl-CoA hydrolysis
+Acylglycerides metabolism
+Alanine, aspartate and glutamate metabolism
+Amino sugar and nucleotide sugar metabolism
+Aminoacyl-tRNA biosynthesis
+Androgen metabolism
+Arachidonic acid metabolism
+Arginine and proline metabolism
+Artificial reactions
+Ascorbate and aldarate metabolism
+Beta oxidation of branched-chain fatty acids (mitochondrial)
+Beta oxidation of di-unsaturated fatty acids (n-6) (mitochondrial)
+Beta oxidation of di-unsaturated fatty acids (n-6) (peroxisomal)
+Beta oxidation of even-chain fatty acids (mitochondrial)
+Beta oxidation of even-chain fatty acids (peroxisomal)
+Beta oxidation of odd-chain fatty acids (mitochondrial)
+Beta oxidation of odd-chain fatty acids (peroxisomal)
+Beta oxidation of phytanic acid (peroxisomal)
+Beta oxidation of poly-unsaturated fatty acids (mitochondrial)
+Beta oxidation of unsaturated fatty acids (n-7) (mitochondrial)
+Beta oxidation of unsaturated fatty acids (n-7) (peroxisomal)
+Beta oxidation of unsaturated fatty acids (n-9) (mitochondrial)
+Beta oxidation of unsaturated fatty acids (n-9) (peroxisomal)
+Beta-alanine metabolism
+Bile acid biosynthesis
+Bile acid recycling
+Biopterin metabolism
+Biotin metabolism
+Blood group biosynthesis
+Butanoate metabolism
+C5-branched dibasic acid metabolism
+Carnitine shuttle (cytosolic)
+Carnitine shuttle (endoplasmic reticular)
+Carnitine shuttle (mitochondrial)
+Carnitine shuttle (peroxisomal)
+Cholesterol biosynthesis 1 (Bloch pathway) 
+Cholesterol biosynthesis 2
+Cholesterol biosynthesis 3 (Kandustch-Russell pathway)
+Cholesterol metabolism
+Chondroitin / heparan sulfate biosynthesis
+Chondroitin sulfate degradation
+CoA synthesis
+Cysteine and methionine metabolism
+Drug metabolism
+Eicosanoid metabolism
+Estrogen metabolism
+Ether lipid metabolism
+Exchange/demand reactions
+Fatty acid activation (cytosolic)
+Fatty acid activation (endoplasmic reticular)
+Fatty acid biosynthesis
+Fatty acid biosynthesis (even-chain)
+Fatty acid biosynthesis (odd-chain)
+Fatty acid biosynthesis (unsaturated)
+Fatty acid desaturation (even-chain)
+Fatty acid desaturation (odd-chain)
+Fatty acid elongation (even-chain)
+Fatty acid elongation (odd-chain)
+Fatty acid oxidation
+Folate metabolism
+Formation and hydrolysis of cholesterol esters
+Fructose and mannose metabolism
+Galactose metabolism
+Glucocorticoid biosynthesis
+Glutathione metabolism
+Glycerolipid metabolism
+Glycerophospholipid metabolism
+Glycine, serine and threonine metabolism
+Glycolysis / Gluconeogenesis
+Glycosphingolipid biosynthesis-ganglio series
+Glycosphingolipid biosynthesis-globo series
+Glycosphingolipid biosynthesis-lacto and neolacto series
+Glycosphingolipid metabolism
+Glycosylphosphatidylinositol (GPI)-anchor biosynthesis
+Heme degradation
+Heme synthesis
+Heparan sulfate degradation
+Histidine metabolism
+Inositol phosphate metabolism
+Isolated
+Keratan sulfate biosynthesis
+Keratan sulfate degradation
+Leukotriene metabolism
+Linoleate metabolism
+Lipoic acid metabolism
+Lysine metabolism
+Metabolism of other amino acids
+Metabolism of xenobiotics by cytochrome P450
+Miscellaneous
+N-glycan metabolism
+Nicotinate and nicotinamide metabolism
+Nitrogen metabolism
+Nucleotide metabolism
+O-glycan metabolism
+Omega-3 fatty acid metabolism
+Omega-6 fatty acid metabolism
+Oxidative phosphorylation
+Pantothenate and CoA biosynthesis
+Pentose and glucuronate interconversions
+Pentose phosphate pathway
+Peptide metabolism
+Phenylalanine metabolism
+Phenylalanine, tyrosine and tryptophan biosynthesis
+Phosphatidylinositol phosphate metabolism
+Pool reactions
+Porphyrin metabolism
+Propanoate metabolism
+Prostaglandin biosynthesis
+Protein assembly
+Protein degradation
+Protein modification
+Purine metabolism
+Pyrimidine metabolism
+Pyruvate metabolism
+ROS detoxification
+Retinol metabolism
+Riboflavin metabolism
+Serotonin and melatonin biosynthesis
+Sphingolipid metabolism
+Starch and sucrose metabolism
+Steroid metabolism
+Sulfur metabolism
+Terpenoid backbone biosynthesis
+Thiamine metabolism
+Transport reactions
+Tricarboxylic acid cycle and glyoxylate/dicarboxylate metabolism
+Tryptophan metabolism
+Tyrosine metabolism
+Ubiquinone synthesis
+Urea cycle
+Valine, leucine, and isoleucine metabolism
+Vitamin A metabolism
+Vitamin B12 metabolism
+Vitamin B2 metabolism
+Vitamin B6 metabolism
+Vitamin D metabolism
+Vitamin E metabolism
+Xenobiotics metabolism
