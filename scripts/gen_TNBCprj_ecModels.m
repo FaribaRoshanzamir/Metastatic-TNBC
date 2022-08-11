@@ -81,7 +81,7 @@ clear init_model;
     %%save simplified models to use by GECKO and also model comparison
     save(['../../../models/model_' modelname '.mat'],'simplifiedmodel')
     simplifiedModels{i}=simplifiedmodel;
-    save('../../../models/simplifiedModels_Median','simplifiedModels');
+    save('../../../models/simplifiedModels_Median','simplifiedModels'); % save them in an array to be used for structural comparison
 end
 
 % changing certain part of model names to be consistent with their ids in the
@@ -111,7 +111,7 @@ end
 
 
 % load models 
-load ( '/Users/fariba/Documents/Metastatic-TNBC/models/simplifiedModels_Median.mat')
+%load ( '/Users/fariba/Documents/Metastatic-TNBC/models/simplifiedModels_Median.mat')
 %--------------------------------------------------------------------------
 %set variables to Run GECKO
 org_name     = 'homo sapiens';
@@ -154,7 +154,7 @@ ecDir = [current '/ecModels']
 files = dir(fullfile(ecDir, '*.mat'));
 L = length(files)
 cd (ecDir)
-%mkdir arraydataFile
+%mkdir arraydataFiles
 for i=1:L
 clear ecModel
     file=files(i).name;
@@ -174,4 +174,4 @@ clear ecModel
     ecModel.id = [modelname '_ecModel'];
     TNBC_ecModels.ecModels{i,1} = ecModel;
 end
-save([ecDir '/arraydataFile/' 'TNBC_ecModels_array.mat'],'TNBC_ecModels')
+save([ecDir '/arraydataFiles/' 'TNBC_ecModels_array.mat'],'TNBC_ecModels')
