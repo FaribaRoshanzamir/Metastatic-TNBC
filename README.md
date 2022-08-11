@@ -13,7 +13,7 @@ HT:  Healthy Tissue<p>
 * A functional MATLAB installation 
 * The [RAVEN toolbox](https://github.com/SysBioChalmers/RAVEN).
 * The [GECKO toolbox](https://github.com/SysBioChalmers/GECKO)
-* The [HumanGem toolbox](https://github.com/SysBioChalmers/Human-GEM)
+* The [Human_GEM toolbox](https://github.com/SysBioChalmers/Human-GEM)
 * The [COBRA toolbox](https://github.com/opencobra/cobratoolbox) (necessary for ecGEM reconstruction).
 
 ##  Required Softwares
