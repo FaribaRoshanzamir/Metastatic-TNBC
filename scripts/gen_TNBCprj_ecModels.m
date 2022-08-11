@@ -1,23 +1,22 @@
 % gen_TNBCprj_ecModels.m
 
-cd '/Users/fariba/Documents/Metastatic-TNBC/github'
-system('git clone https://github.com/SysBioChalmers/EnzymeConstrained_humanModels.git');
-cd EnzymeConstrained_humanModels
-system('git checkout d000641')
-cd ..
-system('git clone https://github.com/opencobra/cobratoolbox.git');
-cd cobratoolbox
-system('git checkout 9251835') 
-cd ..
-system('git clone https://github.com/SysBioChalmers/RAVEN.git');
-cd RAVEN
-system('git checkout cc3f6e3')
-cd ..
-system('git clone https://github.com/SysBioChalmers/Human-GEM.git');
-cd Human-GEM
-system('git checkout 74de28c')
-cd ..
-
+% cd '/Users/fariba/Documents/Metastatic-TNBC/github'
+% system('git clone https://github.com/SysBioChalmers/EnzymeConstrained_humanModels.git');
+% cd EnzymeConstrained_humanModels
+% system('git checkout d000641')
+% cd ..
+% system('git clone https://github.com/opencobra/cobratoolbox.git');
+% cd cobratoolbox
+% system('git checkout 9251835') 
+% cd ..
+% system('git clone https://github.com/SysBioChalmers/RAVEN.git');
+% cd RAVEN
+% system('git checkout cc3f6e3')
+% cd ..
+% system('git clone https://github.com/SysBioChalmers/Human-GEM.git');
+% cd Human-GEM
+% system('git checkout 74de28c')
+% cd ..
 
 %Add them to the path
 addpath(genpath('/Users/fariba/Documents/Metastatic-TNBC/github/RAVEN'))
@@ -111,7 +110,6 @@ end
 % end
 
 
-
 % load models 
 load ( '/Users/fariba/Documents/Metastatic-TNBC/models/simplifiedModels_Median.mat')
 %--------------------------------------------------------------------------
@@ -151,15 +149,12 @@ clear simpModel;
     save([current '/ecModels/' 'ecModel' '_' modelname '.mat'],'ecModel')
 end
 
-
 % Keep all the ecModels in an arraydata file
 ecDir = [current '/ecModels']
 files = dir(fullfile(ecDir, '*.mat'));
 L = length(files)
-
 cd (ecDir)
 %mkdir arraydataFile
-
 for i=1:L
 clear ecModel
     file=files(i).name;
