@@ -1,12 +1,12 @@
 # Metastatic-TNBC
 This repository contains reconstructed metabolic models that includs four groups of HT-, TM-, TP-, NT-specific models generated based on RNA-seq data
 
-# Abbreviations
+## Abbreviations used as model ids
 
 <p>TP:  Primary Tumor<br>
-<p>TM:  Metastatic Tumor<br>
-<p>NT:  tumor-adjacent Normal Tissue<br>
-<p>HT:  Healthy Tissue<br>
+TM:  Metastatic Tumor<br>
+NT:  tumor-adjacent Normal Tissue<br>
+HT:  Healthy Tissue<p>
 
 
 ### Dependencies 
