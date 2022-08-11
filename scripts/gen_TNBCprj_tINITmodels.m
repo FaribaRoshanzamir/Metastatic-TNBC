@@ -55,7 +55,7 @@ clear init_model;
     [init_model, metProduction, essentialRxnsForTasks, addedRxnsForTasks, deletedDeadEndRxns, deletedRxnsInINIT, taskReport] = ...
         getINITModel2_fast(ihuman,char(arrayData{i}.tissues),[],[],arrayData{i},[],true,[],true,false,taskStruct);
     %save tINIT model
-    cd('Models/tINIT_models_Median')
+    cd('initial_Models/tINIT_models_Median')
 save(['tINIT_model_' num2str(i) '.mat'],'init_model')
 cd('../..')
 end 
