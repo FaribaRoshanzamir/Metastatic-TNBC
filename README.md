@@ -3,7 +3,7 @@ This repository contains reconstructed metabolic models that includs four groups
 
 # Abbreviations
 
-TP:  Primary Tumor
+<br>TP:  Primary Tumor<br>
 TM:  Metastatic Tumor
 NT:  tumor-adjacent Normal Tissue
 HT:  Healthy Tissue
