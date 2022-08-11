@@ -1,12 +1,6 @@
 %
 % FILE NAME:    gen_MultipleModelsEssentialGenes.m
 % 
-% DATE CREATED: 2020-01-27
-% 
-% PROGRAMMER:   Fariba Roshanzamir
-%               Department of Biology and Biological Engineering
-%               Chalmers University of Technology
-% 
 % PURPOSE: To generate results of gene essentiality analysis for all
 %          reconstructed models in metastatic TNBC breast cancer project
 %
@@ -33,10 +27,6 @@
 %                        taskList). Entries in the matrix are true when a
 %                        gene is essential for a task, and false otherwise.
 
-%
-% Fariba Roshanzamir 2020-01-27
-
-
 function essGenes = gen_MultipleModelsEssentialGenes(inputModelsFile,refmodel,taskfile)
 
 % load the reference humanGEM model
@@ -51,7 +41,7 @@ refModel.rxnGeneMat = rxnGeneMat;
 
 % load the tINIT models
 % these models are simplified so we need to bring back Boundary Metabolites
-% so I reproduce them here to be used as input for getTaskEssentialGenes
+%  I reproduce them here to be used as input for getTaskEssentialGenes
 % which will use "checkTasksGenes" function 
 simpINITmodels = load(inputModelsFile{1});
 simpINITmodels = simpINITmodels.TNBCmetastaticProj_INITmodels; %this isn't a good way for automate programming
@@ -65,8 +55,8 @@ end
 % load the metabolic tasks
 taskStruct = parseTaskList(taskfile{1});
 % Identify genes essential for different tasks in different tINIT models.
-%taskStruct =taskStruct(57); %  only check biomass production task for now (last task in the list)
-taskStruct =taskStruct; %  only check biomass production task for now (last task in the list)
+taskStruct =taskStruct(57); %  only check biomass production task for now (last task in the list)
+%taskStruct =taskStruct; %  
 
 % get essential genes for each model and task
 essGenes = getTaskEssentialGenes(comparingINIT_Models, refModel, taskStruct);

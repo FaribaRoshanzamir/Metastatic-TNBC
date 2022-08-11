@@ -1,12 +1,6 @@
 %
 % FILE NAME:    run_gen_MultipleModelsEssentialGenes.m
-%
-% DATE CREATED: 2020-01-27
-%
-% PROGRAMMER:   Fariba Roshanzamir
-%               Department of Biology and Biological Engineering
-%               Chalmers University of Technology
-%  
+
 % PURPOSE:  To automate doing  gene essentiality analysis of reconstructed
 %           models in TNBCmetastatic project which includes Primary Tumor,
 %           Adjacent Normal , Healthy and also TNBC metstatic models for 
@@ -23,8 +17,6 @@
 %                       generated.
 %
 %   taskFile            metabolic task structure
-%
-% Fariba Roshanzamir 2020-01-27
 
 
 %%
@@ -51,25 +43,28 @@ addpath(genpath('/Users/fariba/Documents/GitHub/RAVEN'))
 addpath(genpath('/Users/fariba/Documents/GitHub/human-GEM'))
 addpath(genpath('/Users/fariba/Documents/GitHub/cobratoolbox'))
 addpath /Library/gurobi811/mac64/matlab
-addpath '/Users/fariba/Documents/BrCprojectNewdataset/MetastaticTNBC_Modeling/Scripts_Matlab'
+addpath '/Users/fariba/Documents/Metastatic-TNBC/scripts'
 
 %________________  prepare REQUIRED VARIABLES  ____________________________
 % Put all needed files in one folder and address to them
-filepath = '/Users/fariba/Documents/BrCprojectNewdataset/MetastaticTNBC_Modeling/Data/Analysis/';
+filepath = '/Users/fariba/Documents/Metastatic-TNBC/models/';
 x = dir(filepath);
 Modelfiles = ({x.name})';
 Modelfiles(cellfun(@isempty, regexp(Modelfiles,'TNBCmetastaticProj_INITmodels.mat$'))) = [];
 modelsfileAddress = strcat(filepath, Modelfiles)
 
+filepath = '/Users/fariba/Documents/Metastatic-TNBC/data/';
+x = dir(filepath);
 taskfile = ({x.name})';
 taskfile(cellfun(@isempty, regexp(taskfile,'metabolicTasks_Essential.xlsx$'))) = [];
 taskfileAddress =  strcat(filepath, taskfile)
 
 % load the reference humanGEM model
-load('humanGEM.mat'); % loads humanGEM model as variable "ihuman"
+load('/Users/fariba/Documents/Metastatic-TNBC/data/humanGEM.mat'); % loads humanGEM model as variable "ihuman"
 
 %________________  gene essentiality analysis  ____________________________
 % run gen_MultipleModelsEssentialGenes function
+cd '/Users/fariba/Documents/Metastatic-TNBC/Results'
 inputModelsFile = modelsfileAddress;
 refmodel = ihuman;
 taskfile = taskfileAddress;
